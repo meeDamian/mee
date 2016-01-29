@@ -6,8 +6,8 @@ function wrap(o) {
 			return o;
 		}
 
-		let n = {};
-		for (let f in o) {
+		const n = {};
+		for (const f in o) {
 			if (o.hasOwnProperty(f)) {
 				n[f] = typeof o[f] === 'function' ?
 					o[f].bind(undefined, d) :
