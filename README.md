@@ -6,7 +6,7 @@ Experimental modules management pattern…
 ## Download
 
 ```
-$ npm i -g mee
+$ npm i mee
 ```
 ### Usage
 
