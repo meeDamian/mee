@@ -1,6 +1,6 @@
 {
   "name": "mee",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "Frameworkless framework",
   "main": "index.js",
   "repository": {
@@ -16,9 +16,9 @@
   ],
   "author": "Damian Mee <mee.damian@gmail.com> (https://meedamian.com)",
   "license": "MIT",
-	"engines": {
-		"node": ">=4.0.0"
-	},
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
