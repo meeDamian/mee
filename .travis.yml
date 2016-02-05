@@ -8,6 +8,7 @@ node_js:
 - '5.0'
 after_success:
   - codecov
+  - "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
 deploy:
   provider: npm
   email: mee.damian@gmail.com
