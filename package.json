@@ -1,6 +1,6 @@
 {
   "name": "mee",
-  "version": "0.9.6",
+  "version": "0.9.7",
   "description": "Frameworkless framework",
   "main": "index.js",
   "repository": {
