@@ -1,5 +1,5 @@
 # mee
-[![Build Status](https://travis-ci.org/meeDamian/mee.svg?branch=master)](https://travis-ci.org/meeDamian/mee) [![npm version](https://badge.fury.io/js/mee.svg)](https://badge.fury.io/js/mee) [![codecov.io](https://codecov.io/github/meeDamian/mee/coverage.svg?branch=master)](https://codecov.io/github/meeDamian/mee?branch=master) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![devDependency Status](https://david-dm.org/meeDamian/mee/dev-status.svg)](https://david-dm.org/meeDamian/mee#info=devDependencies)
+[![Build Status](https://travis-ci.org/meeDamian/mee.svg?branch=master)](https://travis-ci.org/meeDamian/mee) [![npm version](https://badge.fury.io/js/mee.svg)](https://badge.fury.io/js/mee) [![codecov.io](https://codecov.io/github/meeDamian/mee/coverage.svg?branch=master)](https://codecov.io/github/meeDamian/mee?branch=master) [![Coverage Status](https://coveralls.io/repos/github/meeDamian/mee/badge.svg?branch=master)](https://coveralls.io/github/meeDamian/mee?branch=master) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![devDependency Status](https://david-dm.org/meeDamian/mee/dev-status.svg)](https://david-dm.org/meeDamian/mee#info=devDependencies)
 
 Experimental modules management pattern…
 
