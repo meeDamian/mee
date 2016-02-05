@@ -1,11 +1,19 @@
 language: node_js
 node_js:
-  - "5.5"
-  - "5.4"
-  - "5.3"
-  - "5.2"
-  - "5.1"
-  - "5.0"
-  - "4.2"
-  - "4.1"
-  - "4.0"
+- '5.5'
+- '5.4'
+- '5.3'
+- '5.2'
+- '5.1'
+- '5.0'
+- '4.2'
+- '4.1'
+- '4.0'
+deploy:
+  provider: npm
+  email: mee.damian@gmail.com
+  api_key:
+    secure: ZQQ5yD9hYGAf7B1xYCmNmvnsCmHh6Z9HEwYs1A1NcgB568/ar44rL4hPZO6jXW096Oq6aYn/yuqvaqpeWGvkYqPitin1eGlcVGxTgs83Ml3XRuFQYk3rCLfZzObZUbpLSCXPugBJn4pv9JozeBgg+coKiWlE/rzGELpf64vlvMQvgvx2ctjhRgLXkucqhwuvVffb/FUFJrA7j1DdNbtAU1BQGPNzhgAwdrNzWYk7cIhGh8r1WzdNtScuiyK1BD+KKXIZ1cvLxQFyo3Io4A73aEfPJPpyAh/nmqff+naP2kCi6Y4Qy9bKXSbVJ5Gzy2ncodxv4GPNsEvJeN51GPaQveNb+ZVxILU0nUdF6ldj/crxloqRoIQXY+d+bR8TMCUKr8cL5g8+OCKjmW9YebRQKJRGWLw/iX9ISnpw1qMNxUlRXO+QX4E/8m81rBxlcuN9T1EHafWVL9++FW3oi4t5kkqdFSeG2z80f6eVzg6/vCDVjK8Wt4lDI6RJrTg0KTRyKoKU743gfHwDoTE6Ds2h7YD1Lhn9x2rWngVOOdWim2oORGGhf6oadWTcqD1S/E6Dd0y53qMEyoeHQLMJySW0Ryqw85C0fplZVZLC8/E75OLZbMIc1U8ifcrmovw5TaNYjGwysRGYM20xu53May72gz/yxcV74+AQ10eOSBdjngU=
+  on:
+    tags: true
+    repo: chester1000/mee
