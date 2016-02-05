@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:chester1000/mee.git"
+    "url": "git@github.com:meeDamian/mee.git"
   },
   "scripts": {
     "test": "xo && isparta cover _mocha"
