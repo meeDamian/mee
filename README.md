@@ -1,5 +1,5 @@
 # Mee
-[![Build Status](https://travis-ci.org/chester1000/mee.svg?branch=master)](https://travis-ci.org/chester1000/mee) [![npm version](https://badge.fury.io/js/mee.svg)](https://badge.fury.io/js/mee) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![devDependency Status](https://david-dm.org/chester1000/mee/dev-status.svg)](https://david-dm.org/chester1000/mee#info=devDependencies)
+[![Build Status](https://travis-ci.org/chester1000/mee.svg?branch=master)](https://travis-ci.org/chester1000/mee) [![npm version](https://badge.fury.io/js/mee.svg)](https://badge.fury.io/js/mee) [![codecov.io](https://codecov.io/github/chester1000/mee/coverage.svg?branch=master)](https://codecov.io/github/chester1000/mee?branch=master) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![devDependency Status](https://david-dm.org/chester1000/mee/dev-status.svg)](https://david-dm.org/chester1000/mee#info=devDependencies)
 
 Experimental modules management pattern…
 
