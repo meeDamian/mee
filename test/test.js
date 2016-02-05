@@ -12,7 +12,7 @@ describe('No dependencies', () => {
 			p.should.contain.keys('fn');
 			p.fn.should.be.a('function');
 
-			const VAL = Math.random();
+			const VAL = 666;
 			const val = p.fn(VAL);
 			should.exist(val);
 			val.should.equal(VAL);
@@ -25,7 +25,7 @@ describe('No dependencies', () => {
 			p.should.contain.keys('fn');
 			p.fn.should.be.a('function');
 
-			const VAL = Math.random();
+			const VAL = 334;
 			const val = p.fn(VAL);
 			should.exist(val);
 			val.should.equal(VAL);

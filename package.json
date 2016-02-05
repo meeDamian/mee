@@ -8,7 +8,7 @@
     "url": "git@github.com:chester1000/mee.git"
   },
   "scripts": {
-    "test": "xo && isparta cover _mocha -- -R spec && codecov"
+    "test": "xo && isparta cover _mocha"
   },
   "keywords": [
     "framework",
