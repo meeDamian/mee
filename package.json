@@ -36,6 +36,9 @@
   },
   "xo": {
     "esnext": true,
+    "ignore": [
+      "compiled.js"
+    ],
     "envs": [
       "node",
       "mocha",
