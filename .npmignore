@@ -2,3 +2,5 @@ examples/
 coverage/
 test/
 .travis.yml
+
+index.js
