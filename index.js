@@ -1,25 +1,27 @@
 'use strict';
 
-function wrap(o) {
-	return d => {
-		if (!d) {
-			return o;
-		}
+function wrap(fn, deps) {
+	fn = fn.__orig || fn;
 
-		const n = {};
+	const out = (...args) => fn(deps, ...args);
+	out.__orig = fn;
+
+	return out;
+}
+
+function dependify(m, o, d) {
+	if (d) {
 		for (const f in o) {
-			if (o.hasOwnProperty(f)) {
-				n[f] = typeof o[f] === 'function' ?
-					o[f].bind(undefined, d) :
-					o[f];
+			if (o.hasOwnProperty(f) && typeof o[f] === 'function') {
+				o[f] = wrap(o[f], d);
 			}
 		}
+	}
 
-		return n;
-	};
+	return Object.assign(m.exports, o);
 }
 
 module.exports = function (m, o, d) {
-	m.exports = wrap(o);
-	return Object.assign(m.exports, wrap(o)(d));
+	m.exports = d => dependify(m, o, d);
+	return dependify(m, o, d);
 };
