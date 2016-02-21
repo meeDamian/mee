@@ -18,7 +18,7 @@ Example usage in `examples/` folder.
 
 If you discover a bug please report it [here](https://github.com/meeDamian/mee/issues/new).
 
-Mail me at bugs@meedamian.com, on twitter I'm [@meeDamian](http://twitter.com/meedamian).
+Mail me at bugs@meedamian.com, or on twitter [@meeDamian](http://twitter.com/meedamian).
 
 ## Code coverage
 
