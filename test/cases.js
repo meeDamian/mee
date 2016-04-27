@@ -7,11 +7,7 @@ const should = chai.should();
 
 describe('variable/function scoping', () => {
 	describe('normal', () => {
-		let scope;
-
-		beforeEach(() => {
-			scope = require('../examples/scope.js');
-		});
+		const scope = require('../examples/scope.js');
 
 		it('should export right', () => {
 			should.exist(scope);
