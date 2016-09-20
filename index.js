@@ -12,7 +12,7 @@ function wrap(fn, deps) {
 function dependify(m, o, d) {
 	if (d) {
 		for (const f in o) {
-			if (o.hasOwnProperty(f) && typeof o[f] === 'function') {
+			if ({}.hasOwnProperty.call(o, f) && typeof o[f] === 'function') {
 				o[f] = wrap(o[f], d);
 			}
 		}
